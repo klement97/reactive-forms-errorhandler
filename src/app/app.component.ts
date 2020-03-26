@@ -57,7 +57,5 @@ export class AppComponent implements OnInit {
             this.signUpForm.markAllAsTouched();
             return;
         }
-
-        this.signUpForm.get('email').setErrors({emailInUse: true});
     }
 }

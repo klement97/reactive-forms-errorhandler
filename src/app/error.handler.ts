@@ -169,15 +169,6 @@ export class ErrorHandler {
         } else {
             this.message = '';
         }
-
-        const errorObject = {
-            first_name: 'This field is required',
-            last_name: 'This field is required',
-            email: 'This field is required',
-            password: 'This field is required',
-            re_password: 'This field is required',
-        };
-
     }
 
     /**
